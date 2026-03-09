@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kabul Sedaqat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<section class="search">
+
+<input id="searchInput" placeholder="Search houses...">
+
+<button onclick="searchProperty()">Search</button>
+
+</section>
+<h1>Kabul Sedaqat</h1>
+<p>Find homes for rent, sale, mortgage or shared housing</p>
+</header>
+
+<section class="zones-section">
+
+<h2>Browse Properties by Zone</h2>
+
+<div class="zones">
+
+<button onclick="showZone(1)">Zone 1</button>
+<button onclick="showZone(2)">Zone 2</button>
+<button onclick="showZone(3)">Zone 3</button>
+<button onclick="showZone(4)">Zone 4</button>
+<button onclick="showZone(5)">Zone 5</button>
+<button onclick="showZone(6)">Zone 6</button>
+<button onclick="showZone(7)">Zone 7</button>
+<button onclick="showZone(8)">Zone 8</button>
+<button onclick="showZone(9)">Zone 9</button>
+<button onclick="showZone(10)">Zone 10</button>
+
+</div>
+
+</section>
+
+<section class="filters">
+
+<h2>Property Type</h2>
+
+<button onclick="filterType('all')">All</button>
+<button onclick="filterType('rent')">Rent</button>
+<button onclick="filterType('sale')">Sale</button>
+<button onclick="filterType('mortgage')">Mortgage</button>
+<button onclick="filterType('shared')">Shared</button>
+
+</section>
+
+<section>
+
+<h2>Listings</h2>
+<div id="listings"></div>
+
+</section>
+
+<div id="popup" class="popup">
+
+<div class="popup-content">
+
+<span class="close" onclick="closePopup()">X</span>
+
+<div id="popupDetails"></div>
+
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>Phone: +93 XXX XXX XXXX</p>
+<p>Email: info@sedaqathousing.com</p>
+
+</section>
