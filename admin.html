@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Admin Property Upload</h1>
+</header>
+
+<section style="text-align:center; margin-top:30px;">
+
+<input id="title" placeholder="Property title"><br><br>
+
+<input id="price" placeholder="Price"><br><br>
+
+<select id="zone">
+<option value="1">Zone 1</option>
+<option value="2">Zone 2</option>
+<option value="3">Zone 3</option>
+<option value="4">Zone 4</option>
+<option value="5">Zone 5</option>
+<option value="6">Zone 6</option>
+<option value="7">Zone 7</option>
+<option value="8">Zone 8</option>
+<option value="9">Zone 9</option>
+<option value="10">Zone 10</option>
+</select>
+
+<br><br>
+
+<select id="type">
+<option value="rent">Rent</option>
+<option value="sale">Sale</option>
+<option value="mortgage">Mortgage</option>
+<option value="shared">Shared</option>
+</select>
+
+<br><br>
+
+<textarea id="description" placeholder="Property description"></textarea>
+
+<br><br>
+
+<input id="image" placeholder="Image URL">
+
+<br><br>
+
+<button onclick="addProperty()">Add Property</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
